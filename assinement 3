@@ -1,0 +1,19 @@
+sno=int(input('Enter student number:'))
+sname=input('Enter student name:')
+group=input('Enter group:')
+s1=int(input('Enter the statastics marks:'))
+s2=int(input('Enter the python marks:'))
+s3=int(input('Enter the DBMS marks:'))
+if s1>=35 and s2>=35 and s3>=35:
+    print('The student',sname,'is pass')
+else:
+    print('The student',sname,'is fail')
+    output:
+    Enter student number:20
+Enter student name:abcd
+Enter group:AI
+Enter the AI marks:99
+Enter the maths marks:100
+Enter the DBMS marks:34
+The student abcd is fail
+> 
